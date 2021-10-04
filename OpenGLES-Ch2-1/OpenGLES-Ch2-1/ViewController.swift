@@ -54,10 +54,10 @@ class ViewController: GLKViewController {
         
         // Set constants to be used for all subsequent rendering
         self.baseEffect.useConstantColor = GLboolean(GL_TRUE)
-        self.baseEffect.constantColor = GLKVector4Make(0, 1, 0, 1)
+        self.baseEffect.constantColor = GLKVector4Make(1, 1, 1, 1)
         
         // Set the background color stored in the current context
-        glClearColor(1, 1, 1, 1)
+        glClearColor(0, 0, 0, 1)
         
         // Generate, bind, and initialize contents of a buffer to be stored in GPU memory
         glGenBuffers(1, &vertexBufferID)

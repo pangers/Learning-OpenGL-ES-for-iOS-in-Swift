@@ -21,7 +21,7 @@ class ViewController: GLKViewController {
     var vertexBuffer: AGLKVertexAttribArrayBuffer!
     
     let vertices:[SceneVertex] = [
-        SceneVertex(positionCoords: GLKVector3Make(-0.5, -0.5, 0), textureCoords: GLKVector2Make(0, 0)),
+      SceneVertex(positionCoords: GLKVector3Make(-0.5, -0.5, 0), textureCoords: GLKVector2Make(0, 0)),
         SceneVertex(positionCoords: GLKVector3Make(0.5, -0.5, 0), textureCoords: GLKVector2Make(1, 0)),
         SceneVertex(positionCoords: GLKVector3Make(-0.5, 0.5, 0), textureCoords: GLKVector2Make(0, 1)),
         ]
